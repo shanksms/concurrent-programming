@@ -1,4 +1,4 @@
-package com.shashank.concurrent.programming;
+package com.shashank.concurrent.programming.racecondition;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
