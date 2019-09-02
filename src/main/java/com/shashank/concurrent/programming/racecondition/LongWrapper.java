@@ -9,7 +9,10 @@ package com.shashank.concurrent.programming.racecondition;
     }
 
     public long getValue() {
-      return value;
+      synchronized (lock) {
+        return value;
+      }
+
     }
     public void incrementValue() {
       synchronized (lock) {
